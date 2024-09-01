@@ -1,0 +1,15 @@
+.ContactContainer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.ContactContainer h2 {
+    padding: 10px;
+}
+
+.ContactContainer p {
+    text-align: justify;
+    padding: 10px;
+}

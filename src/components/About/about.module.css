@@ -1,0 +1,41 @@
+.AboutContainer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.AboutContainer p {
+    text-align: justify;
+    padding: 10px;
+}
+
+.AboutContainer h2 {
+    padding: 10px;
+}
+
+.AboutContainerImgs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.AboutImg {
+    width: clamp(16vw, 4vw, 10vw);
+    height: clamp(16vw, 4vw, 10vw);
+}
+
+@media screen and (max-width: 400px) {
+    .AboutContainerImgs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .AboutImg {
+        width: 30vw;
+        height: auto;
+        margin: 0px;
+    }
+}
